@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" class=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Voice</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.min(1).css">
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVT9kZVQWbeynn29bbYXr2XoxTF9xNl6CNBw&amp;usqp=CAU" type="image/icon type">
+  
+    <style>
+      body{
+      width: 100%;
+      height: 100%;
+      background-image: url('wall.png');
+      background-size: 100% 100%;
+  }
+    </style>
+<link type="text/css" rel="stylesheet" charset="UTF-8" href="m=el_main_css"></head>
+<body>
+    
+      <br><br>
+      <div class="container">
+        <div class="jumbotron">
+            <h1><b>Text To <span style="color: brown;">Speech</span> Converter:<div id="show" style="color: brown; font-weight: bold;"></div></b></h1>
+            <br>
+            <span style="color: brown;font-weight: bold;font-size: x-large;">Select Voice: </span><select id="voiceList"><option data-lang="ja-JP" data-name="Microsoft Ayumi - Japanese (Japan)">Microsoft Ayumi - Japanese (Japan)</option><option data-lang="ja-JP" data-name="Microsoft Haruka - Japanese (Japan)">Microsoft Haruka - Japanese (Japan)</option><option data-lang="ja-JP" data-name="Microsoft Ichiro - Japanese (Japan)">Microsoft Ichiro - Japanese (Japan)</option><option data-lang="ja-JP" data-name="Microsoft Sayaka - Japanese (Japan)">Microsoft Sayaka - Japanese (Japan)</option><option data-lang="de-DE" data-name="Google Deutsch">Google Deutsch</option><option data-lang="en-US" data-name="Google US English">Google US English</option><option data-lang="en-GB" data-name="Google UK English Female">Google UK English Female</option><option data-lang="en-GB" data-name="Google UK English Male">Google UK English Male</option><option data-lang="es-ES" data-name="Google español">Google español</option><option data-lang="es-US" data-name="Google español de Estados Unidos">Google español de Estados Unidos</option><option data-lang="fr-FR" data-name="Google français">Google français</option><option data-lang="hi-IN" data-name="Google हिन्दी">Google हिन्दी</option><option data-lang="id-ID" data-name="Google Bahasa Indonesia">Google Bahasa Indonesia</option><option data-lang="it-IT" data-name="Google italiano">Google italiano</option><option data-lang="ja-JP" data-name="Google 日本語">Google 日本語</option><option data-lang="ko-KR" data-name="Google 한국의">Google 한국의</option><option data-lang="nl-NL" data-name="Google Nederlands">Google Nederlands</option><option data-lang="pl-PL" data-name="Google polski">Google polski</option><option data-lang="pt-BR" data-name="Google português do Brasil">Google português do Brasil</option><option data-lang="ru-RU" data-name="Google русский">Google русский</option><option data-lang="zh-CN" data-name="Google 普通话（中国大陆）">Google&nbsp;普通话（中国大陆）</option><option data-lang="zh-HK" data-name="Google 粤語（香港）">Google&nbsp;粤語（香港）</option><option data-lang="zh-TW" data-name="Google 國語（臺灣）">Google 國語（臺灣）</option></select> <br><br>
+            <span style="color: brown;font-weight: bold;font-size: x-large;">Enter Text:&nbsp; </span><input id="txtInput"> <br><br> 
+          
+          <a class="btn btn-success btn-lg" id="btnSpeak">Speak!</a>
+        </div>
+      </div>   
+
+    <script src="voice.js"></script>
+
+
+</body></html>
